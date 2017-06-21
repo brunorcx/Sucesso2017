@@ -21,3 +21,8 @@ In the next window check all files inorder to add files for initial commit and c
 Now the project will be uploaded to the GitHub repository and when uploading is finished we will 
 get a message in android studio showing "Successfully shared project on GitHub". Click on the link 
 provided in that message to go to GitHub repository.
+
+
+
+
+https://github.com/firebase/FirebaseUI-Android
