@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Sucesso2017</string>
+    <string name="stringSaida">Teste de branch novo</string>
 </resources>
