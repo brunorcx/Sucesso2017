@@ -6,4 +6,5 @@
     <string name="entrarString">Entrar</string>
     <string name="auth_failed">Login ou senha invalido</string>
     <string name="cadastrarString">Cadastrar</string>
+    <string name="cadastro_invalido">Cadastro Invalido</string>
 </resources>
