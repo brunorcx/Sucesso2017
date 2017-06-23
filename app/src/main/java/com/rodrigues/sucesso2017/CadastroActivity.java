@@ -1,5 +1,6 @@
 package com.rodrigues.sucesso2017;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -63,5 +64,6 @@ public class CadastroActivity extends AppCompatActivity {
                 }
               }
             });
+
   }
 }
