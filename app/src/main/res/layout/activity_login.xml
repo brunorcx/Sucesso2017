@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rodrigues.sucesso2017.LoginActivity"
+    android:orientation="vertical">
+
+
+    <EditText
+        style="@style/LoginStyle"
+        android:hint="@string/loginString"
+        android:id="@+id/login_ET"/>
+
+    <EditText
+        style="@style/LoginStyle"
+        android:hint="@string/senhaString"
+        android:id="@+id/senha_ET"/>
+    <Button
+        style="@style/LoginStyle"
+        android:text="@string/entrarString"
+        android:id="@+id/botao_B"
+        android:onClick="signInUser"/>
+</LinearLayout>
