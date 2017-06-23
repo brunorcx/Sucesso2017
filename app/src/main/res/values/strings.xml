@@ -5,4 +5,5 @@
     <string name="senhaString">Senha</string>
     <string name="entrarString">Entrar</string>
     <string name="auth_failed">Login ou senha invalido</string>
+    <string name="cadastrarString">Cadastrar</string>
 </resources>
