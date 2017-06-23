@@ -14,6 +14,7 @@ import com.google.firebase.database.ValueEventListener;
 import static android.R.attr.value;
 
 public class MainActivity extends AppCompatActivity {
+  private final String TAG="Main Activity";
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
         // This method is called once with the initial value and again
         // whenever data at this location is updated.
         String value = dataSnapshot.getValue(String.class);
-        String TAG="1";
         Log.d(TAG, "Value is: " + value);
 
         TextView primeiraView = (TextView) findViewById(R.id.primeiraView);
