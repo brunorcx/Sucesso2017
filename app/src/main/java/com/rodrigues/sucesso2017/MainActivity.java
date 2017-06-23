@@ -15,6 +15,8 @@ import static android.R.attr.value;
 
 public class MainActivity extends AppCompatActivity {
 
+  private final String TAG = "MainActivity";
+
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
@@ -32,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
         // This method is called once with the initial value and again
         // whenever data at this location is updated.
         String value = dataSnapshot.getValue(String.class);
-        String TAG="1";
         Log.d(TAG, "Value is: " + value);
 
         TextView primeiraView = (TextView) findViewById(R.id.primeiraView);
@@ -42,14 +43,9 @@ public class MainActivity extends AppCompatActivity {
       @Override
       public void onCancelled(DatabaseError error) {
         // Failed to read value
-        String TAG="0";
+        String TAG = "0";
         Log.w(TAG, "Failed to read value.", error.toException());
       }
-
     });
-
-
   }
-
-
 }
