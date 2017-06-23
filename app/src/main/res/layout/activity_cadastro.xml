@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rodrigues.sucesso2017.CadastroActivity"
+    android:orientation="vertical">
+    <EditText
+        style="@style/LoginStyle"
+        android:id="@+id/email_ET"
+        android:hint="@string/loginString"/>
+    <EditText
+        style="@style/LoginStyle"
+        android:id="@+id/senha_ET"
+        android:hint="@string/senhaString"/>
+
+    <Button
+        style="@style/LoginStyle"
+        android:id="@+id/button_ET"
+        android:text="@string/cadastrarString"/>
+</LinearLayout>

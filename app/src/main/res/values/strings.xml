@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Sucesso2017</string>
+    <string name="stringSaida">Teste de branch novo</string>
+    <string name="loginString">Login</string>
+    <string name="senhaString">Senha</string>
+    <string name="entrarString">Entrar</string>
+    <string name="auth_failed">Login ou senha invalido</string>
+    <string name="cadastrarString">Cadastrar</string>
 </resources>
