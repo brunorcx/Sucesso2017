@@ -1,5 +1,6 @@
 package com.rodrigues.sucesso2017;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -77,5 +78,10 @@ public class LoginActivity extends AppCompatActivity {
                 }
               }
             });
+  }
+
+  public void cadastrarIntent(View view) {
+    Intent intent = new Intent(this,CadastroActivity.class);
+    startActivity(intent);
   }
 }
