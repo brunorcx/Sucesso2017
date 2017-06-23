@@ -13,11 +13,12 @@
         android:hint="@string/loginString"/>
     <EditText
         style="@style/LoginStyle"
-        android:id="@+id/senha_ET"
+        android:id="@+id/senha_Cad_ET"
         android:hint="@string/senhaString"/>
 
     <Button
         style="@style/LoginStyle"
         android:id="@+id/button_ET"
-        android:text="@string/cadastrarString"/>
+        android:text="@string/cadastrarString"
+        android:onClick="singUpUser"/>
 </LinearLayout>
