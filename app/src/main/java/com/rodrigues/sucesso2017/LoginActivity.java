@@ -16,6 +16,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class LoginActivity extends AppCompatActivity {
+
   private final String TAG = "LoginActivity";
   private FirebaseAuth mAuth;
   private FirebaseAuth.AuthStateListener mAuthListener;
@@ -75,6 +76,10 @@ public class LoginActivity extends AppCompatActivity {
                   Log.w(TAG, "signInWithEmail:failed", task.getException());
                   Toast.makeText(LoginActivity.this, R.string.auth_failed,
                           Toast.LENGTH_SHORT).show();
+                }
+                else {
+                  Intent intent2 = new Intent(LoginActivity.this, MainActivity.class);
+                  startActivity(intent2);
                 }
               }
             });
