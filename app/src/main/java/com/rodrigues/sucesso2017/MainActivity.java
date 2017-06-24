@@ -14,7 +14,6 @@ import com.google.firebase.database.ValueEventListener;
 import static android.R.attr.value;
 
 public class MainActivity extends AppCompatActivity {
-  private final String TAG="Main Activity";
 
   private final String TAG = "MainActivity";
 
