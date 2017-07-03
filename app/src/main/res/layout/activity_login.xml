@@ -1,32 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.rodrigues.sucesso2017.LoginActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context="com.rodrigues.sucesso2017.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
 
 
-    <EditText
-        style="@style/LoginStyle"
-        android:hint="@string/loginString"
-        android:id="@+id/login_ET"/>
+        <RelativeLayout
+            android:id="@+id/login_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
 
-    <EditText
-        style="@style/LoginStyle"
-        android:hint="@string/senhaString"
-        android:id="@+id/senha_ET"/>
-    <Button
-        style="@style/LoginStyle"
-        android:text="@string/entrarString"
-        android:id="@+id/botao_B"
-        android:onClick="signInUser"/>
-    <TextView
-        style="@style/LoginStyle"
-        android:gravity="right"
-        android:text="Cadastrar"
-        android:onClick="cadastrarIntent"
-        android:layout_marginTop="5dp"/>
+            <ImageView
+                android:id="@+id/user_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="4dp"
+                android:src="@mipmap/ic_account_circle_black_24dp"/>
+
+            <EditText
+                android:id="@+id/login_ET"
+                style="@style/LoginStyle"
+                android:layout_toRightOf="@id/user_icon"
+                android:background="@color/transparent"
+                android:hint="@string/loginString"
+                />
+            <view
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/divider"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/password_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/login_layout">
+
+            <ImageView
+                android:id="@+id/password_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_lock_outline_black_24dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="4dp"/>
+
+            <EditText
+                android:id="@+id/senha_ET"
+                android:layout_toRightOf="@id/password_icon"
+                style="@style/LoginStyle"
+                android:hint="@string/senhaString"
+                android:inputType="textPassword" />
+
+            <view
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/divider"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/button_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/password_layout">
+
+            <Button
+                android:id="@+id/botao_B"
+                style="@style/LoginStyle"
+                android:onClick="signInUser"
+                android:text="@string/entrarString" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/button_layout">
+
+            <TextView
+                style="@style/LoginStyle"
+                android:layout_marginTop="5dp"
+                android:gravity="right"
+                android:onClick="cadastrarIntent"
+                android:text="Cadastrar" />
+        </RelativeLayout>
+    </RelativeLayout>
 </LinearLayout>
