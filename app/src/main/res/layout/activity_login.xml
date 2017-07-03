@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
     android:orientation="vertical"
     tools:context="com.rodrigues.sucesso2017.LoginActivity">
 
@@ -39,6 +40,8 @@
                 style="@style/LoginStyle"
                 android:layout_toRightOf="@id/user_icon"
                 android:background="@color/transparent"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
                 android:hint="@string/loginString"
                 />
             <view
