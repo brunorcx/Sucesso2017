@@ -73,7 +73,7 @@
                 android:layout_toRightOf="@id/password_icon"
                 style="@style/LoginStyle"
                 android:textColor="#FFFFFF"
-                android:textColorHint="#FFFFFF"
+                android:textColorHint="#000000"
                 android:hint="@string/senhaString"
                 android:inputType="textPassword" />
 
