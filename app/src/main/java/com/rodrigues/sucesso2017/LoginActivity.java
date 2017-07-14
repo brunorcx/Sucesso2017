@@ -17,9 +17,10 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class LoginActivity extends AppCompatActivity {
 
-  private final String TAG = "LoginActivity";
+  private static final String TAG = "LoginActivity";
   private FirebaseAuth mAuth;
   private FirebaseAuth.AuthStateListener mAuthListener;
+
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
@@ -56,8 +57,8 @@ public class LoginActivity extends AppCompatActivity {
     }
   }
   public void signInUser(View view) {
-    EditText login_ET = (EditText) findViewById(R.id.login_ET);
-    EditText senha_ET = (EditText) findViewById(R.id.senha_ET);
+    EditText login_ET = (EditText) findViewById(R.id.login_edit_text);
+    EditText senha_ET = (EditText) findViewById(R.id.password_edit_text);
 
 
     final String email = login_ET.getText().toString();
