@@ -7,4 +7,6 @@
     <string name="auth_failed">Login ou senha invalido</string>
     <string name="cadastrarString">Cadastrar</string>
     <string name="cadastro_invalido">Cadastro Invalido</string>
+    <string name="e_mail_String">E-mail</string>
+    <string name="nome_String">Nome</string>
 </resources>
