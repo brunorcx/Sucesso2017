@@ -38,6 +38,7 @@
                 android:layout_toRightOf="@id/user_icon"
                 android:background="@color/transparent"
                 android:hint="@string/loginString"
+                android:inputType="textEmailAddress"
                 android:textColorHint="#FFFFFF" />
 
             <View
@@ -68,6 +69,7 @@
                 android:layout_toRightOf="@id/lock_icon"
                 android:background="@color/transparent"
                 android:hint="@string/senhaString"
+                android:inputType="textPassword"
                 android:textColorHint="#FFFFFF" />
 
             <View
@@ -77,5 +79,34 @@
                 android:background="#484747"/>
         </RelativeLayout>
 
+        <RelativeLayout
+            android:id="@+id/button_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/password_layout"
+            >
+            <Button
+                android:id="@+id/login_button"
+                style="@style/LoginStyle"
+                android:onClick="signInUser"
+                android:text="@string/entrarString"
+                android:textColor="#FFFFFF"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/button_layout"
+            >
+            <TextView
+                style="@style/LoginStyle"
+                android:gravity="right"
+                android:layout_marginTop="5dp"
+                android:onClick="cadastrarIntent"
+                android:text="@string/cadastrarString"
+                android:textColor="#FFFFFF"/>
+
+        </RelativeLayout>
     </RelativeLayout>
 </LinearLayout>
