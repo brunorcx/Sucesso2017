@@ -54,8 +54,8 @@ public class CadastroActivity extends AppCompatActivity {
   }
 
   public void singUpUser(View view) {
-    EditText login_ET = (EditText) findViewById(R.id.email_ET);
-    EditText senha_ET = (EditText) findViewById(R.id.senha_Cad_ET);
+    EditText login_ET = (EditText) findViewById(R.id.email_edit_text_cad);
+    EditText senha_ET = (EditText) findViewById(R.id.password_edit_text_cad);
 
     final String email = login_ET.getText().toString();
     final String password = senha_ET.getText().toString();
@@ -75,6 +75,5 @@ public class CadastroActivity extends AppCompatActivity {
                 }
               }
             });
-
   }
 }

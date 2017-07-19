@@ -3,23 +3,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:background="#FFFFFF"
     android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image_produto"
+        android:layout_width="75dp"
+        android:layout_height="75dp" />
 
     <TextView
         android:id="@+id/nomeP_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
         tools:text="Arroz" />
 
     <TextView
         android:id="@+id/marca_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:gravity="center"
         tools:text="Faccil" />
 
     <TextView
         android:id="@+id/preco_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="2.90" />
+        android:gravity="center"
+        tools:text="R$ 2.90" />
+
 </LinearLayout>

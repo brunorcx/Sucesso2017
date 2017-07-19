@@ -6,17 +6,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.rodrigues.sucesso2017.MainActivity"
+    android:background="#cac4c4"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/primeira_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
     <GridView
         android:id="@+id/grid_alimentos"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_margin="16dp"
         android:numColumns="3">
     </GridView>
 
