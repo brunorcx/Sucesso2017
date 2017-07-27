@@ -45,7 +45,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:layout_alignParentBottom="true"
-                android:background="#414040"/>
+                android:background="#FFFFFF"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"/>
         </RelativeLayout>
 
         <RelativeLayout
@@ -76,7 +78,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:layout_alignParentBottom="true"
-                android:background="#484747"/>
+                android:background="#FFFFFF"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"/>
         </RelativeLayout>
 
         <RelativeLayout

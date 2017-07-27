@@ -39,8 +39,8 @@ public class MainActivity extends AppCompatActivity {
         String value = dataSnapshot.getValue(String.class);
         Log.d(TAG, "Value is: " + value);
 
-        TextView primeiraView = (TextView) findViewById(R.id.primeira_view);
-        primeiraView.setText(value);
+        //TextView primeiraView = (TextView) findViewById(R.id.primeira_view);
+        //primeiraView.setText(value);
       }
 
       @Override
