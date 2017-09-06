@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "339683194263",
+    "firebase_url": "https://sucesso2017-6da3c.firebaseio.com",
+    "project_id": "sucesso2017-6da3c",
+    "storage_bucket": "sucesso2017-6da3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339683194263:android:cf2846d9b9aeb944",
+        "android_client_info": {
+          "package_name": "com.rodrigues.sucesso2017"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339683194263-8sdfehrad16d65jqfg8hkksiiat6bo8s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rodrigues.sucesso2017",
+            "certificate_hash": "b5b8d1147623aa7dac3f93692d016af810245a15"
+          }
+        },
+        {
+          "client_id": "339683194263-se1brgu2vqvunn7o14drvf8mh6bdmopq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rodrigues.sucesso2017",
+            "certificate_hash": "410ba6d7f5d5b5510b4668bba75986837f4eb330"
+          }
+        },
+        {
+          "client_id": "339683194263-e3ipar8q48p5ke5o66h15k6rj30e3e0i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuz7eW-MoIzfpGyHzfYCvu7-jv9PtbPQU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339683194263-e3ipar8q48p5ke5o66h15k6rj30e3e0i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
