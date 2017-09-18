@@ -23,4 +23,12 @@
         android:text="@string/entrarString"
         android:id="@+id/botao_B"
         android:onClick="signInUser"/>
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Próximo"
+        android:onClick="proximaTela"
+        android:id="@+id/proximo_B"/>
 </LinearLayout>
